@@ -28,6 +28,10 @@ Create a symbolic link:
 
 <pre>$ ln -s ~/.conky/conky.conf ~/.conkyrc</pre>
 
+Copy the pingtest.sh file to <code>/usr/local/bin/</code>:
+
+<pre># cp ~/.conky/pingtest.sh /usr/local/bin/</pre>
+
 # Stunnel Configuration for IMAPS
 Main <code>/etc/stunnel/stunnel.conf</code >config file:
 <pre>[imaps]
