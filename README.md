@@ -3,6 +3,8 @@ conky
 
 My Conky configuration for Debian Wheezy.
 
+<img src='1280x800.png' width='400px'>
+
 # Installation on Debian Wheezy
 
 The following packages are used by the script:
@@ -16,7 +18,15 @@ The following packages are used by the script:
  
 To install:
 
-<pre># apt-get install conky wget lm-sensors hddtemp sudo stunnel4 </pre>
+<pre># apt-get install conky wget lm-sensors hddtemp sudo stunnel4 git</pre>
+
+Fetch the configuration files from GitHub repository:
+
+<pre>$ git clone https://github.com/crylium/conky.git ~/.conky</pre>
+
+Create a symbolic link:
+
+<pre>$ ln -s ~/.conky/conky.conf ~/.conkyrc</pre>
 
 # Stunnel Configuration for IMAPS
 Main <code>/etc/stunnel/stunnel.conf</code >config file:
