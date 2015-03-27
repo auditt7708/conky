@@ -1,7 +1,7 @@
 conky
 =====
 
-My Conky configuration for Debian Wheezy.
+My Conky laptop configuration for Debian Wheezy.
 
 <img src='1280x800.png' width='400px'>
 
