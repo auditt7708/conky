@@ -22,7 +22,7 @@ To install:
 
 Fetch the configuration files from GitHub repository:
 
-<pre>$ git clone https://github.com/crylium/conky.git ~/.conky</pre>
+<pre>$ git clone https://github.com/lisenet/conky.git ~/.conky</pre>
 
 Create a symbolic link:
 
